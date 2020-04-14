@@ -2,7 +2,10 @@
 
 import re, pyperclip
 
-#First name, middle initial if applicable with period, last name with symbol if applicable
+'''
+First name, middle initial if applicable with period, last name with symbol
+if applicable
+'''
 
 fullName = re.compile(r'''
 (
@@ -44,9 +47,13 @@ for phone in extractedPhone:
 for name in extractedName:
     allNames.append(name[0])
 
-result = '\n'.join(allNames) + '\n' + '\n'.join(allPhoneNumbers) + '\n' + '\n'.join(extractedEmail)
+result = ('\n'.join(allNames) + '\n' + '\n'.join(allPhoneNumbers) +
+'\n' + '\n'.join(extractedEmail))
 
-#Create a database to sort and store the information collected to make it retrievable
+'''
+Create a database to sort and store the information collected to make
+it retrievable
+'''
 
 #Copies to clipboard so all you have to do is CTRL-V on selected document
 pyperclip.copy(result)
