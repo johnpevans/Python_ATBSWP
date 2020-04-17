@@ -1,8 +1,12 @@
+#! python3
+
+#From the exercise in Automate the Boring Stuff with Python
+
 import openpyxl
 import os
 
 #How to Read
-os.chdir('C:\\Users\\jpeva\\Desktop\\Udemy\\Python_ATBSWP\\docs\\spreadsheets')
+os.chdir('[INSERT_PATH]\\spreadsheets')
 
 workbook = openpyxl.load_workbook('example.xlsx')
 

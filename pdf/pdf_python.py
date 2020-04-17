@@ -1,8 +1,11 @@
+#! python3
+
+#From the exercise in Automate the Boring Stuff with Python
 import PyPDF2, os
 
 #For combininb PDFs
 
-os.chdir('''C:\\Users\\jpeva\\Desktop\\Udemy\\Python_ATBSWP\\pdf''')
+os.chdir('''[INSERT_PATH]\\pdf''')
 
 pdfFile1 = open('meetingminutes1.pdf', 'rb') #read in binary
 pdfFile2 = open('meetingminutes2.pdf', 'rb')

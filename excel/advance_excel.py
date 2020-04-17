@@ -1,7 +1,11 @@
+#! python3
+
+# from website: https://openpyxl.readthedocs.io/en/stable/tutorial.html
+
 from openpyxl import Workbook
 import os, Datetime
 
-os.chdir('''C:\\Users\\jpeva\\Desktop\\Udemy\\Python_ATBSWP\\excel\\
+os.chdir('''[INSERT_PATH]\\excel\\
     spreadsheets''')
 
 wb = Workbook()
