@@ -8,5 +8,6 @@ I was then having trouble with retrieving results. The instructor stated that
 this was because of Amazon, which was true. So I used another suggestion for
 a different site.
 
-For the *selenium_python.py* file, a copy of the file for chromedrive.exe was
-included because it was necessary in order to utilize the webdriver function. 
+For the *selenium_python.py* file, a copy of the file for
+[chromedrive.exe](https://chromedriver.chromium.org/downloads) will
+need to be downloaded in order to utilize the webdriver function. 
