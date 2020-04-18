@@ -1,4 +1,4 @@
-###Automate the Boring Stuff with Python Exercises###
+### Automate the Boring Stuff with Python Exercises ###
 
 I used an older edition of the book by [Al Sweigart](https://www.https://automatetheboringstuff.com/),
 so I had to do some workarounds to complete some of the exercises. Below are a
@@ -10,9 +10,16 @@ I would encourage people interested in learning more to take Al's
 [Udemy course](https://www.udemy.com/course/automate) and/or read the book.
 
 **Email**
-I had to use pyzmail36 as a fork used to install pyzmail
+
+I had to use pyzmail36 as a fork used to install pyzmail.
+
+I modified the exercise by adding in input statements because I didn't want to
+put in the raw password in. I also followed the instruction in the email to
+create a type of temporary application email which worked quite successfully.
+
 
 **Regex**
+
 This program takes contact information that was copied and extracts the name,
 phone numbers and emails that can be pasted to a new document.
 
@@ -21,6 +28,7 @@ with Python*. I have modified some of the exercises to meet my own needs, but
 it is largely based on the examples presented in the book.
 
 **Web Scraping**
+
 In the exercise located under *soup.py* I was Getting a 503 error when using
 the Amazon site. Through the Udemy FAQ forum it was suggested the use of
 headers to make it seem as though the request was coming from a browser.
@@ -37,4 +45,5 @@ For the *selenium_python.py* file, a copy of the file for
 need to be downloaded to utilize the webdriver function.
 
 **Word**
+
 Insert the path to document on the computer under *insert_path*
