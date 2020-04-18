@@ -3,10 +3,6 @@ import bs4, requests
 url = '''https://www.bookdepository.com/Automate-Boring-Stuff-With-\
 Python-2nd-Edition-Al-Sweigart/9781593279929'''
 
-'''
-The following information for the browser can be found at:
-https://www.whatismybrowser.com/detect/what-is-my-user-agent
-'''
 browser = '''Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36'''
 

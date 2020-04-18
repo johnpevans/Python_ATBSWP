@@ -1,7 +1,5 @@
 #! python3
 
-# from website: https://openpyxl.readthedocs.io/en/stable/tutorial.html
-
 from openpyxl import Workbook
 import os, Datetime
 
@@ -30,7 +28,9 @@ for row in ws.iter_rows(min_row=1, max_col=3, max_row=2):
     for cell in row:
         print(cell)
 
-#If you need to iterate through all the rows or columns of a file, you can instead use the Worksheet.rows/cols
+'''If you need to iterate through all the rows or columns of a file,
+you can instead use the Worksheet.rows/cols
+'''
 
 tuple(ws.rows)
 

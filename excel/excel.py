@@ -1,7 +1,5 @@
 #! python3
 
-#From the exercise in Automate the Boring Stuff with Python
-
 import openpyxl
 import os
 

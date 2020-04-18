@@ -1,6 +1,5 @@
 #! python3
 
-#From the exercise in Automate the Boring Stuff with Python
 import PyPDF2, os
 
 #For combininb PDFs
@@ -30,6 +29,8 @@ pdfFile1.close()
 pdfFile2.close()
 
 '''
+# These are additional features to become familiar with the document.
+
 print(reader.numPages)
 
 page = reader.getPage(0)
