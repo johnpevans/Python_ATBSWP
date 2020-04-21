@@ -46,13 +46,3 @@ need to be downloaded to utilize the webdriver function for Chrome.
 **Word**
 
 Insert the path to document on the computer using *insert_path* assignment.
-
-## The Final Project ##
-
-I assigned myself a final project that combines all, or at least most of, the
-methods used in this lesson. The project will need to:
-
-  - Collect a count of emails that are unread and populate spreadsheet with those numbers
-  - Assign a count of those emails
-  - Order those emails by count from largest to smallest
-  - Use that list to unsubscribe from those emails with higher counts
