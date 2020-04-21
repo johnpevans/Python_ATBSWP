@@ -1,11 +1,5 @@
 import smtplib
 
-'''
-I modified the exercise because I didn't want to put in the raw password in.
-I also followed the instruction in the email to create a type of temporary
-application email which worked quite successfully.
-'''
-
 email = input('What is your email:')
 password = input('What is your password for your email:')
 toEmail = input('Who do you want to send an email too:')
