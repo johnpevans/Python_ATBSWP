@@ -1,4 +1,4 @@
-### Automate the Boring Stuff with Python Exercises ###
+### Automate the Boring Stuff with Python Exercises
 
 I used an older edition of the book by [Al Sweigart](https://www.https://automatetheboringstuff.com/),
 so I had to do some workarounds to complete some of the exercises. Below are a

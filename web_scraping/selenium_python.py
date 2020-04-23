@@ -16,4 +16,4 @@ searchElem.send_keys('zophie')
 searchElem.submit()
 browser.back()
 browser.forward(browser.quit
-browser.refresh)
+    browser.refresh)
